@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
 
-import reducer from './reducers';
+import notesReducer from './notesReducer';
 
-export default createSotre()
+export default combineReducers({
+  notesReducer
+});
